@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/kerox font/stylesheet.css" type="text/css" charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/sass/styles.scss">
+        <link rel="shortcut icon" href="/assets/Logo.png">
+        
+        <title>Welcome to My Page</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+    <!-- Aqui inicia la nav menu -->
+        <header class="header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">ARVERUZ.DESIGN</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#aboutme" class="nav__link">ABOUT ME</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">MY WORK</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">CONTACT ME</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+            <!-- Aqui finaliza la nav menu -->
+
+           <!-- Aqui inicia el home -->
+        <main class="main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">WELCOME TO MY PAGE</span>
+                    <h1 class="home__title anime-text">JUST CHILL...</h1>
+                    <span class="home__skill anime-text">I´M DESIGNING IT</span>
+                    <div>
+                        <a href="#" class="home__button anime-text">SEE MY WORK</a>
+                    <a href="https://github.com/ByArVerUz21/Portfolio-Website/raw/main/assets/pdf/Diego%20Armando%20Vera%20Uzcategui%20%20Graphic%20Designer%20Resume.pdf" class="home__button anime-text">MY RESUME HERE!</a>                        
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/img.jpg" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <a id="profile-link" href="https://www.linkedin.com/in/armandoveruz21/"><ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon></a>
+                    <a id="profile-link"href="https://www.instagram.com/veruzarmando21/?next=%2F"> <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon></a>
+                    <a id="profile-link"href="https://twitter.com/veruzarmando21"><ion-icon name="logo-twitter" class="home__social-icon"></ion-icon></a>
+                    <a id="profile-link" href="https://github.com/ByArVerUz21" target="_blank" class="btn contact-details">  <ion-icon name="logo-github" class="home__social-icon"></ion-icon> </a>
+                    <a href="mailto:veruzarmando@gmail.com">  <ion-icon name="mail-outline" class="home__social-icon"></ion-icon></a> 
+                </div>
+            </div>
+        </main>
+           <!-- Aqui finaliza el home -->
+
+       <!-- Aqui inicia la seccion de sobre mi -->
+        <section id="aboutme">
+            <div class="aboutme">
+            <div class="aboutme__information">
+                <div class="aboutme-img-container">
+                <img class="aboutme__img" src="assets/img/me-pic.png" alt="">
+                </div>
+             <div class="aboutme__information-text">
+              <h1>WHO IS ARMANDO VERA?</h1>
+              <p>He is  Venezuelan Architecture Student and a Game/Web Developer
+                  in training. <span>Passionate about graphic design and 
+                  technology. With more than two years of experience 
+                  as a freelance graphic designer and one year as 
+                  technical support. </span>
+                  With intermediate English and a proactive
+                  mindset, ready to apply my skills and knowledge 
+                  and learn more in his professional career.</p>
+                </div>   
+                </div>
+                </div>
+            </section>
+              <!-- Aqui finaliza la seccion de sobre mi -->
+              <section id="projects" class="projects">
+                <div class="projects">
+                  <div class="projects__information">
+                    <h1> ZONE IN PROGRESS</h1>
+                  </div>
+              </section>
+                <!-- Aqui inicia la seccion de contacto-->
+            <section id="contact" class="contact">
+                <div class="contact">
+                <div class="contactme__information">
+                  <h2>LET´S WORK TOGETHER... <br> BUT FIRST DO YOU LIKE COFFEE??</h2>
+          
+                </div>
+                  <div class="contactme-content">
+                    <div class="form-group"> 
+                      <p>Need talk about business or something like that? Thats epic tho! <br>
+                        Fill the info in the following  form and lets do it something great!!!!</p>
+                      <form action="https://formspree.io/f/mgebaqlo" method="POST" />
+                        <div class="field">
+                          <label for="name"><span class="required">NAME</span></label>
+                          <input type="text" name="name" id="name" class="form-control" required="required"  placeholder="Alex The Capybara">
+                        </div>
+                        <div class="field">
+                          <label for="email"><span class="required">EMAIL</span></label>
+                          <input type="email" name="_replyto" id="email" class="form-control"  required="required" placeholder="LJAreTheGOAT@anymail.com">
+                        </div>
+                        <div class="field">
+                          <label for="message" class="message"><span class="required">MESSAGE</span></label>
+                          <textarea type="textbox" name="message" id="message"  required="required" placeholder="Dear Armando, Lets gonna play Valorant btw..."></textarea>
+                        </div>
+                        <button type="submit" value="send" class="submit__button">
+                          <span>SEND EMAIL</span> <i class="far fa-envelope-open" aria-hidden="true"></i></button>
+                      </form>
+                    </div>
+                    </div>  
+                    </div>
+                  </div>
+
+    </body>
+                  <!-- Aqui finaliza la seccion de contacto --> 
+                  
+    <!-- Aqui inicia el pie de pagina -->  
+    <footer>
+        <div class="Footer_container">
+          <p class="footer__info"> © CREATED BY DIEGO ARMANDO VERA UZCATEGUI, GRAPHIC AND WEB DESIGNER </p>
+          <img class="image__logo" src="/assets/Logo.png" alt="" srcset="">
+        </div>
+            <!-- Aqui finaliza el pie de pagina -->
+
+    <!-- Miscelaneos -->
+    
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>
+ 
+ 
